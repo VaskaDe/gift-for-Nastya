@@ -1,8 +1,8 @@
-import { categories } from './data/catalog.js';
-import { store, resetSelection } from './state/store.js';
-import { $, haptic } from './utils/dom.js';
+import { categories } from './catalog.js';
+import { store, resetSelection } from './store.js';
+import { $, haptic } from './dom.js';
 import { introView, onboardingView, categoriesView, categoryIntroView, variantsView, detailsView, confirmationView, successView } from './views/templates.js';
-import { submitSelection } from './services/submissionService.js';
+import { submitSelection } from './submissionService.js';
 
 const view = $('#view');
 const history = [];
